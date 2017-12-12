@@ -8,3 +8,4 @@ $datosPer = Personas::getAll();
 
 // Include page view
 require_once(VIEW_PATH.'index.view.php');
+?>

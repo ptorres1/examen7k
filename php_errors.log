@@ -23,3 +23,78 @@
 [12-Dec-2017 10:42:01 MST] PHP   1. {main}() /home/ubuntu/workspace/directorioPersonas/index.php:0
 [12-Dec-2017 10:42:01 MST] PHP   2. Personas::getAll() /home/ubuntu/workspace/directorioPersonas/index.php:7
 [12-Dec-2017 10:42:01 MST] PHP   3. Personas::getBySql() /home/ubuntu/workspace/directorioPersonas/includes/models/personas.model.php:40
+[12-Dec-2017 11:37:51 MST] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/ubuntu/workspace/directorioPersonas/includes/libraries/database.class.php on line 19
+[12-Dec-2017 11:37:51 MST] PHP Stack trace:
+[12-Dec-2017 11:37:51 MST] PHP   1. {main}() /home/ubuntu/workspace/directorioPersonas/index.php:0
+[12-Dec-2017 11:37:51 MST] PHP   2. Personas::getAll() /home/ubuntu/workspace/directorioPersonas/index.php:7
+[12-Dec-2017 11:37:51 MST] PHP   3. Personas::getBySql() /home/ubuntu/workspace/directorioPersonas/includes/models/personas.model.php:40
+[12-Dec-2017 11:37:51 MST] PHP   4. Database->__construct() /home/ubuntu/workspace/directorioPersonas/includes/models/personas.model.php:13
+[12-Dec-2017 11:37:51 MST] PHP   5. mysqli->mysqli() /home/ubuntu/workspace/directorioPersonas/includes/libraries/database.class.php:19
+[12-Dec-2017 11:37:51 MST] PHP Warning:  mysqli::set_charset(): Couldn't fetch Database in /home/ubuntu/workspace/directorioPersonas/includes/libraries/database.class.php on line 20
+[12-Dec-2017 11:37:51 MST] PHP Stack trace:
+[12-Dec-2017 11:37:51 MST] PHP   1. {main}() /home/ubuntu/workspace/directorioPersonas/index.php:0
+[12-Dec-2017 11:37:51 MST] PHP   2. Personas::getAll() /home/ubuntu/workspace/directorioPersonas/index.php:7
+[12-Dec-2017 11:37:51 MST] PHP   3. Personas::getBySql() /home/ubuntu/workspace/directorioPersonas/includes/models/personas.model.php:40
+[12-Dec-2017 11:37:51 MST] PHP   4. Database->__construct() /home/ubuntu/workspace/directorioPersonas/includes/models/personas.model.php:13
+[12-Dec-2017 11:37:51 MST] PHP   5. mysqli->set_charset() /home/ubuntu/workspace/directorioPersonas/includes/libraries/database.class.php:20
+[12-Dec-2017 11:37:51 MST] PHP Warning:  mysqli::query(): Couldn't fetch Database in /home/ubuntu/workspace/directorioPersonas/includes/models/personas.model.php on line 16
+[12-Dec-2017 11:37:51 MST] PHP Stack trace:
+[12-Dec-2017 11:37:51 MST] PHP   1. {main}() /home/ubuntu/workspace/directorioPersonas/index.php:0
+[12-Dec-2017 11:37:51 MST] PHP   2. Personas::getAll() /home/ubuntu/workspace/directorioPersonas/index.php:7
+[12-Dec-2017 11:37:51 MST] PHP   3. Personas::getBySql() /home/ubuntu/workspace/directorioPersonas/includes/models/personas.model.php:40
+[12-Dec-2017 11:37:51 MST] PHP   4. mysqli->query() /home/ubuntu/workspace/directorioPersonas/includes/models/personas.model.php:16
+[12-Dec-2017 11:37:51 MST] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/ubuntu/workspace/directorioPersonas/includes/models/personas.model.php on line 22
+[12-Dec-2017 11:37:51 MST] PHP Stack trace:
+[12-Dec-2017 11:37:51 MST] PHP   1. {main}() /home/ubuntu/workspace/directorioPersonas/index.php:0
+[12-Dec-2017 11:37:51 MST] PHP   2. Personas::getAll() /home/ubuntu/workspace/directorioPersonas/index.php:7
+[12-Dec-2017 11:37:51 MST] PHP   3. Personas::getBySql() /home/ubuntu/workspace/directorioPersonas/includes/models/personas.model.php:40
+[12-Dec-2017 11:41:16 MST] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/ubuntu/workspace/directorioPersonas/includes/libraries/database.class.php on line 19
+[12-Dec-2017 11:41:16 MST] PHP Stack trace:
+[12-Dec-2017 11:41:16 MST] PHP   1. {main}() /home/ubuntu/workspace/directorioPersonas/index.php:0
+[12-Dec-2017 11:41:16 MST] PHP   2. Personas::getAll() /home/ubuntu/workspace/directorioPersonas/index.php:7
+[12-Dec-2017 11:41:16 MST] PHP   3. Personas::getBySql() /home/ubuntu/workspace/directorioPersonas/includes/models/personas.model.php:40
+[12-Dec-2017 11:41:16 MST] PHP   4. Database->__construct() /home/ubuntu/workspace/directorioPersonas/includes/models/personas.model.php:13
+[12-Dec-2017 11:41:16 MST] PHP   5. mysqli->mysqli() /home/ubuntu/workspace/directorioPersonas/includes/libraries/database.class.php:19
+[12-Dec-2017 11:41:16 MST] PHP Warning:  mysqli::set_charset(): Couldn't fetch Database in /home/ubuntu/workspace/directorioPersonas/includes/libraries/database.class.php on line 20
+[12-Dec-2017 11:41:16 MST] PHP Stack trace:
+[12-Dec-2017 11:41:16 MST] PHP   1. {main}() /home/ubuntu/workspace/directorioPersonas/index.php:0
+[12-Dec-2017 11:41:16 MST] PHP   2. Personas::getAll() /home/ubuntu/workspace/directorioPersonas/index.php:7
+[12-Dec-2017 11:41:16 MST] PHP   3. Personas::getBySql() /home/ubuntu/workspace/directorioPersonas/includes/models/personas.model.php:40
+[12-Dec-2017 11:41:16 MST] PHP   4. Database->__construct() /home/ubuntu/workspace/directorioPersonas/includes/models/personas.model.php:13
+[12-Dec-2017 11:41:16 MST] PHP   5. mysqli->set_charset() /home/ubuntu/workspace/directorioPersonas/includes/libraries/database.class.php:20
+[12-Dec-2017 11:41:16 MST] PHP Warning:  mysqli::query(): Couldn't fetch Database in /home/ubuntu/workspace/directorioPersonas/includes/models/personas.model.php on line 16
+[12-Dec-2017 11:41:16 MST] PHP Stack trace:
+[12-Dec-2017 11:41:16 MST] PHP   1. {main}() /home/ubuntu/workspace/directorioPersonas/index.php:0
+[12-Dec-2017 11:41:16 MST] PHP   2. Personas::getAll() /home/ubuntu/workspace/directorioPersonas/index.php:7
+[12-Dec-2017 11:41:16 MST] PHP   3. Personas::getBySql() /home/ubuntu/workspace/directorioPersonas/includes/models/personas.model.php:40
+[12-Dec-2017 11:41:16 MST] PHP   4. mysqli->query() /home/ubuntu/workspace/directorioPersonas/includes/models/personas.model.php:16
+[12-Dec-2017 11:41:16 MST] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/ubuntu/workspace/directorioPersonas/includes/models/personas.model.php on line 22
+[12-Dec-2017 11:41:16 MST] PHP Stack trace:
+[12-Dec-2017 11:41:16 MST] PHP   1. {main}() /home/ubuntu/workspace/directorioPersonas/index.php:0
+[12-Dec-2017 11:41:16 MST] PHP   2. Personas::getAll() /home/ubuntu/workspace/directorioPersonas/index.php:7
+[12-Dec-2017 11:41:16 MST] PHP   3. Personas::getBySql() /home/ubuntu/workspace/directorioPersonas/includes/models/personas.model.php:40
+[12-Dec-2017 11:48:27 MST] PHP Warning:  mysqli::mysqli(): (HY000/1049): Unknown database 'myInfo' in /home/ubuntu/workspace/directorioPersonas/includes/libraries/database.class.php on line 19
+[12-Dec-2017 11:48:27 MST] PHP Stack trace:
+[12-Dec-2017 11:48:27 MST] PHP   1. {main}() /home/ubuntu/workspace/directorioPersonas/index.php:0
+[12-Dec-2017 11:48:27 MST] PHP   2. Personas::getAll() /home/ubuntu/workspace/directorioPersonas/index.php:7
+[12-Dec-2017 11:48:27 MST] PHP   3. Personas::getBySql() /home/ubuntu/workspace/directorioPersonas/includes/models/personas.model.php:40
+[12-Dec-2017 11:48:27 MST] PHP   4. Database->__construct() /home/ubuntu/workspace/directorioPersonas/includes/models/personas.model.php:13
+[12-Dec-2017 11:48:27 MST] PHP   5. mysqli->mysqli() /home/ubuntu/workspace/directorioPersonas/includes/libraries/database.class.php:19
+[12-Dec-2017 11:48:27 MST] PHP Warning:  mysqli::set_charset(): Couldn't fetch Database in /home/ubuntu/workspace/directorioPersonas/includes/libraries/database.class.php on line 20
+[12-Dec-2017 11:48:27 MST] PHP Stack trace:
+[12-Dec-2017 11:48:27 MST] PHP   1. {main}() /home/ubuntu/workspace/directorioPersonas/index.php:0
+[12-Dec-2017 11:48:27 MST] PHP   2. Personas::getAll() /home/ubuntu/workspace/directorioPersonas/index.php:7
+[12-Dec-2017 11:48:27 MST] PHP   3. Personas::getBySql() /home/ubuntu/workspace/directorioPersonas/includes/models/personas.model.php:40
+[12-Dec-2017 11:48:27 MST] PHP   4. Database->__construct() /home/ubuntu/workspace/directorioPersonas/includes/models/personas.model.php:13
+[12-Dec-2017 11:48:27 MST] PHP   5. mysqli->set_charset() /home/ubuntu/workspace/directorioPersonas/includes/libraries/database.class.php:20
+[12-Dec-2017 11:48:27 MST] PHP Warning:  mysqli::query(): Couldn't fetch Database in /home/ubuntu/workspace/directorioPersonas/includes/models/personas.model.php on line 16
+[12-Dec-2017 11:48:27 MST] PHP Stack trace:
+[12-Dec-2017 11:48:27 MST] PHP   1. {main}() /home/ubuntu/workspace/directorioPersonas/index.php:0
+[12-Dec-2017 11:48:27 MST] PHP   2. Personas::getAll() /home/ubuntu/workspace/directorioPersonas/index.php:7
+[12-Dec-2017 11:48:27 MST] PHP   3. Personas::getBySql() /home/ubuntu/workspace/directorioPersonas/includes/models/personas.model.php:40
+[12-Dec-2017 11:48:27 MST] PHP   4. mysqli->query() /home/ubuntu/workspace/directorioPersonas/includes/models/personas.model.php:16
+[12-Dec-2017 11:48:27 MST] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/ubuntu/workspace/directorioPersonas/includes/models/personas.model.php on line 22
+[12-Dec-2017 11:48:27 MST] PHP Stack trace:
+[12-Dec-2017 11:48:27 MST] PHP   1. {main}() /home/ubuntu/workspace/directorioPersonas/index.php:0
+[12-Dec-2017 11:48:27 MST] PHP   2. Personas::getAll() /home/ubuntu/workspace/directorioPersonas/index.php:7
+[12-Dec-2017 11:48:27 MST] PHP   3. Personas::getBySql() /home/ubuntu/workspace/directorioPersonas/includes/models/personas.model.php:40

@@ -1,7 +1,7 @@
 <?php require_once(VIEW_PATH.'header.inc.php'); ?>
 
 	
-	<link href="<?php echo $url;?>assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href="<?php echo $url;?>assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 	<script src="<?php echo $url;?>assets/js/jquery.js"></script>
 	<script src="<?php echo $url;?>assets/js/bootstrap.min.js"></script>
 	<script src="<?php echo $url;?>assets/js/tooltip.js"></script>
